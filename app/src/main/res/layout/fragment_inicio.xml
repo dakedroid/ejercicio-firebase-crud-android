@@ -20,6 +20,8 @@
 
         <EditText
             android:id="@+id/nombreEdtx"
+            android:hint="Escriba el Nombre"
+            android:inputType="text"
             android:layout_margin="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -29,7 +31,55 @@
         <Button
             android:id="@+id/botonSiguiente"
             android:layout_margin="16dp"
-            android:text="IR AL SEGUNDO FRAGMENTO"
+            android:text="Actualizar Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txvNombre"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:text="nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvApellido"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:text="apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvEdad"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:text="edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/botonLeer"
+            android:layout_margin="16dp"
+            android:text="Leer Datos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/botonBorrar"
+            android:layout_margin="16dp"
+            android:text="Borrar datos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
